@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: absolute;
+    top:0%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    color: #04aa6d;
+  }
+  
+  .active {
+    color: #04AA6D;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+#inlineFrameExample{
+  width: 60%;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border: 0px ;
+}

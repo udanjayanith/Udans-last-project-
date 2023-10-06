@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "outline";
+    src: url("fonts/Wonderful\ Wilderness\ Outline\ Font.ttf");
+    }
+
+body{
+    background-color: #1B1C1C;
+    color:  rgba(255, 250, 250, 0.705);
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    overflow-x: hidden;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-family: outline;
+    text-align: center;
+}
+
+.main-img{
+    width: 100%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-img:hover {
+    transform: scale(1.5 );
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.1);
+    -webkit-box-shadow: 3px 3px 5px #000;
+    -moz-box-shadow: 3px 3px 5px #000;
+    box-shadow: 3px 3px 5px #000;
+  }
+
+.s1{
+    width: 40%;
+    display: flex;
+    padding: 0 0 5%;
+    padding-left: 5%;
+}
+
+.pr-flex{
+    display: flex;
+}
+
+.s2{
+    width: 40%;
+    display: flex;
+    padding-bottom: 20%;
+    padding-left: 5%;
+}
+
+p{
+    margin-right: auto;
+    text-align: center;
+}
+
+.main{
+    text-align: center;
+    padding: 2% 2% 0% 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s3{
+    width: 50%;
+    padding-left: 7%;
+    margin-top: 30%;
+    padding-bottom: 4%;
+}
+
+
+.l{
+   margin-right: 20%;
+   margin-left: 0%;
+   padding-bottom: 5%;
+}
+
+.k{
+    margin-right: 20%;
+    margin-left: 0%;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+
+span{
+    color: red;
+}
+
